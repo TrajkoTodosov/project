@@ -1,0 +1,21 @@
+# requirements.txt
+
+# core
+python>=3.8
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+
+# deep learning
+torch>=1.13
+torchmetrics>=0.10
+torchaudio>=0.13      # if you train on raw audio
+librosa>=0.9          # for feature extraction (MFCC, etc.)
+
+# training & logging
+tqdm>=4.64
+tensorboard>=2.11
+
+# configuration & utilities
+pyyaml>=6.0            # if you use YAML config files
+matplotlib>=3.5        # for plots

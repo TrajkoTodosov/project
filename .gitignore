@@ -1,0 +1,34 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Data (raw annotations, features, etc.)
+data/raw/
+data/processed/
+
+# Checkpoints & logs
+checkpoints/
+logs/
+*.ckpt
+*.pt
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
